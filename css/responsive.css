@@ -1,0 +1,86 @@
+
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_area .main-menu .navbar,
+    .header_area .main-menu .navbar .navbar-brand,
+    .Csite-main .subscribe-us-area .subscribe .subscribe-title,
+    .Csite-main .subscribe-us-area .subscribe .subscribe-title p, h4,
+    .Csite-main .Cservices-area,
+    .Csite-main .subscribe-us-area .subscribe
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .Csite-main .Csite-banner .Csite-title h1{
+        font-size: 41px;
+    }
+
+    .Csite-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 15rem    !important;
+    }
+
+    .site-main > .Cservices-area .Cservices{
+        width: 13rem;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .Csite-main .Cabout-area .Cabout-title h2 > span{
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .Csite-main .Cbrand-area .Cexperience-area .Cyears-area{
+        padding-left: 1%;
+        width: 49%;
+    }
+
+    .Csite-main .Cbrand-area .Cexperience-area .Cbg-panel{
+        margin-left: 30%;
+        width: 80%;   
+    }
+
+    .Csite-main .Cbrand-area .Cexperience-area .Ccall-area{
+        padding-left: 3%;
+    }
+
+    .Csite-main .Cproject-area .Cbutton-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .Csite-main .Cabout-area .Cabout-title p{
+        padding: 0%;
+    }
+
+    .Csite-main .subscribe-us-area .subscribe form .input-textbox input{
+        width: 20rem;
+        margin: 5%;
+    }
+}
+
+
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_area .main-menu .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+    .Csite-main .Cbrand-area,
+    .Csite-main .Cservices-area .Cservices-title,
+    .Csite-main .Cabout-area{
+        padding: 3% 4%;
+    }
+
+
+}
